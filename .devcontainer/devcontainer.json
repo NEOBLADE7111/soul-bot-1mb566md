@@ -1,0 +1,8 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:latest",
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "8gb"
+  },
+  "postCreateCommand": "chmod +x soul && python3 soul.py &"
+}
